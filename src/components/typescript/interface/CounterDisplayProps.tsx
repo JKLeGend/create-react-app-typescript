@@ -1,0 +1,1 @@
+export interface CounterDisplayProps { value: number;  label: string; }
