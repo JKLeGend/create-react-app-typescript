@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  prod:
+    container_name: create-react-app-typescript
+    image: jk-create-react-app-typescript
+    ports:
+      - 8080:8080
+    environment:
+
